@@ -428,7 +428,7 @@ img {
   .menu ul {
     height: 100vh;
     padding: 59px 10px;
-    text-align: center;
+    /* text-align: center; */
     flex-direction: column;
   }
   .menu ul a {
