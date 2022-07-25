@@ -59,9 +59,14 @@ h6 {
   font-size: 30px;
   margin-bottom: 20px;
   margin-top: 40px;
-}
-
+} /*
+espaco {
+  display: block;
+  margin-left: 15px;
+  margin-right: 15px;
+} */
 p {
+  color: #7c7c7c;
   font-size: 22px;
   margin-bottom: 15px;
   line-height: 1.5;
@@ -157,6 +162,30 @@ footer p {
   justify-content: space-between;
 }
 /* Diarios */
+.sobreP {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre-infoP {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-titleP {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-transform: 0;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
 
 .sobre {
   border-top: 2px solid #1098ad;
